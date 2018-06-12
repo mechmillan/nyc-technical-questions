@@ -15,7 +15,7 @@ The encoding rule is: k[encoded_string], where the encoded_string inside the squ
 For s = "4[ab]", the output should be decodeString(s) = "abababab"
 For s = "2[b3[a]]", the output should be decodeString(s) = "baaabaaa"
 
-# Question 3 -- changePossibilities(amount,amount):
+# Question 3 -- changePossibilities(amount, denominations):
 Your quirky boss collects rare, old coins. They found out you're a programmer and asked you to solve something they've been wondering for a long time.
 
 Write a function that, given an amount of money and an array of coin denominations, computes the number of ways to make the amount of money with coins of the available denominations.
